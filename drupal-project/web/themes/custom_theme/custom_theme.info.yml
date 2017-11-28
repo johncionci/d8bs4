@@ -1,0 +1,22 @@
+# Theme for Coolidge
+name: My Custom Bootstrap Theme
+type: theme
+base theme: classy
+description: A bootstrap theme
+version: 1.x
+core: 8.x
+
+# Regions
+regions:
+  sidebar_first:   'Sidebar First'
+  header:          'Header'
+  content_header:  'Content Header'
+  content:         'Content'
+  content_sidebar: 'Content Sidebar'
+  content_footer:  'Content Footer'
+  footer:          'Footer'
+
+# Libraries
+libraries:
+  - custom_theme/global-styling
+  - custom_theme/global-scripts
